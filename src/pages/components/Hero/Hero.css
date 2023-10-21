@@ -1,0 +1,173 @@
+/*
+    WHEN USING FLEX & FLEX-DIRECTION IS NOT SET
+    HORIZONTAL
+
+    justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    VERTICAL
+     
+    align-items:
+    start, center, end
+
+    IF SET-DIRECTION IS SET COLUMN
+
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body{
+    font-family: "Roboto", "sans-serif";
+}
+
+.content-box{
+    display: flex;
+    background-color: rgb(223, 244, 222);
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    height: 90vh;
+    width: 100vw;
+}
+
+.content{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: 150px;
+    max-width: 30vw;
+    max-height: 80vh;
+}
+
+.introduction{
+    width: 100%;
+    font-size: 1.5vw;
+}
+
+
+.name{
+    font-family: cursive;
+    color: white;
+    width:20vh;
+    height:50%;
+    text-shadow:  rgb(6, 92, 21) 4px 2px 4px;
+}
+
+.front-end{
+    color: rgb(30, 113, 61);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+}
+
+.greeting{
+    margin-bottom: -20px;
+    font-size: 1.2vw;
+}
+
+.full-inName{
+    font-size: 4vw;
+}
+
+.picture{
+    width:50%;
+    height:auto;
+}
+
+.and{
+    font-weight: bold;
+    color: rgb(8, 88, 62);
+}
+
+.icon{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.section-icons{
+    display: flex;
+    gap: 40px 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+  
+.icon-html{
+    background-image: url("./Softwares/html.png");
+    color: transparent;
+  }
+
+.icon-javaScript{
+    background-image: url("./Softwares/javaScript.png");
+    color: transparent;
+}
+.icon-react{
+    background-image: url("./Softwares/react.png");
+    color: transparent;
+}
+
+.icon-nodeJs{
+    background-image: url("./Softwares/nodeJs.png");
+    color: transparent;
+}
+
+.icon-mySql{
+    background-image: url("./Softwares/MySQL.png");
+    color: transparent;
+}
+
+.icon-springboot{
+    background-image: url("./Softwares/springboot.png");
+    color: transparent;
+}
+
+.icon-git{
+    background-image: url("./Softwares/git.png");
+    color: transparent;
+}
+
+.icon-css{
+    background-image: url("./Softwares/css.png");
+    color: transparent;
+}
+
+  .icon:hover{
+    background-image: none;
+    color: black
+  }
+
+  .icon-css, .icon-git, .icon-springboot, .icon-mySql, .icon-nodeJs, .icon-react, .icon-javaScript, .icon-html{
+    max-width: 80px;
+    max-height: 80px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: cursive;
+  }
+
+  .hero-software{
+    font-weight: bold;
+    font-size: 1.6vw;
+  }
+
+  .picture{
+    background-image: url("./Blas.png");
+    max-width: 400px;
+    height: 450px;
+    color: transparent;
+  }
+
+  .picture:hover{
+    background-image: none;
+    color: black;
+    margin-top: 10px;
+  }

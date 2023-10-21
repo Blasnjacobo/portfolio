@@ -1,0 +1,67 @@
+/*
+    WHEN USING FLEX & FLEX-DIRECTION IS NOT SET
+    HORIZONTAL
+
+    justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    VERTICAL
+     
+    align-items:
+    start, center, end
+
+    IF SET-DIRECTION IS SET COLUMN
+
+*/
+
+
+.navbar{
+    display: flex;
+    min-height: 50px;
+}
+
+.navbar-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    height: 10vh; 
+}
+
+.navbar-itesm{
+    display: flex;
+    gap: 120px;
+}
+
+.resume{
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: rgb(3, 7, 1);
+    font-family: cursive;
+    box-shadow: 2px 2px  2px  0 black;
+    margin: 15px 0;
+}
+
+.resume:hover {
+    background-color: rgb(70, 135, 5);
+    font-family: cursive;
+    border-color: green;
+}
+
+.navbar-link{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.navbar-contact{
+    font-weight: bold;
+}

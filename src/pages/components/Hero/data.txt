@@ -1,0 +1,6 @@
+About Me: 
+I am a mechatronics engineer who has worked in different kind of projects such as:
+Building an electrical car door.
+Research in automating the process of counting tree frogs using python.
+Giving IT technical support to USAA.
+Then I realized that my biggest passion lies on web development, so i have been creating some really nice projects you can dig in by looking at the portfolio section.
