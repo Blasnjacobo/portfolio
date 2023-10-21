@@ -1,5 +1,5 @@
-let gamesRepo = []
-export default  gamesRepo = 
+let RepoData = []
+export default  RepoData = 
 [
             {
                 id: 1,

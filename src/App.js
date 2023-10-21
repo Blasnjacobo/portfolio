@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: <HeroSection />
   },
   {
-    path: "portfolio",
+    path: "/portfolio",
     element: <MyPortfolio />
   },
   {
