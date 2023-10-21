@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.6b900052.css",
+    "main.js": "/myPortfolio/static/js/main.dd4ea305.js",
+    "static/media/Blas.png": "/myPortfolio/static/media/Blas.9ae528d4dee58dd7fd65.png",
+    "static/media/BlasJacobo.pdf": "/myPortfolio/static/media/BlasJacobo.557bd3b798ee8bb38918.pdf",
+    "index.html": "/myPortfolio/index.html",
+    "main.6b900052.css.map": "/myPortfolio/static/css/main.6b900052.css.map",
+    "main.dd4ea305.js.map": "/myPortfolio/static/js/main.dd4ea305.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b900052.css",
+    "static/js/main.dd4ea305.js"
+  ]
+}
