@@ -16,10 +16,10 @@ export default function Navbar(){
             </a>
             <div className="navbar-itesm">
                 <p className="navbar-link"><Link to="/portfolio" style={style} >Home</Link></p>
-                <p className="navbar-link"><Link to="/myPortfolio" style={style}>Portfolio</Link></p>
-                <p className="navbar-link"><Link to="/games" style={style}>Games</Link></p>
+                <p className="navbar-link"><Link to="/portfolio/myPortfolio" style={style}>Portfolio</Link></p>
+                <p className="navbar-link"><Link to="/portfolio/games" style={style}>Games</Link></p>
             </div>
-            <p className="navbar-link navbar-contact"><Link to="/contactMe" style={style}>🙋🏻Contact Me 🙋🏼</Link></p>
+            <p className="navbar-link navbar-contact"><Link to="/portfolio/contactMe" style={style}>🙋🏻Contact Me 🙋🏼</Link></p>
         </div>
     )
 }

@@ -20,9 +20,9 @@ function aboutMeDescription(){
             <h5 className="greeting">Hey there, I'am</h5>
             <div>
               <h1 className="full-inName"><spam className="name">Blas Nunez</spam></h1>
-              <h4 className="front-end">Front-end Developer</h4>
+              <h4 className="front-end">Web Developer</h4>
             </div>
-            <p className="introduction">I am a dude who is passionate for web development and project management, 
+            <p className="introduction">I am a dude who is passionate for front development and project management, 
             with international work experience, and <span className="and">a football lover</span></p>
             <p className="hero-software">Software:</p>
             <div className="section-icons">

@@ -12,15 +12,15 @@ const router = createBrowserRouter([
     element: <HeroSection />
   },
   {
-    path: "/myPortfolio",
+    path: "/portfolio/myPortfolio",
     element: <MyPortfolio />
   },
   {
-    path: "/games",
+    path: "/portfolio/games",
     element: <GameRepo />
   },
   {
-    path: "/contactMe",
+    path: "/portfolio/contactMe",
     element: <ContactMe />
   }
 ])

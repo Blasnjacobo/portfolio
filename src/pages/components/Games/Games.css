@@ -8,16 +8,18 @@
 }
 
 .Game-list{
-    /*display: grid;*/
+     display: grid;
     /*grid-template-columns: repeat(2, 1fr);*/
     display: flex;
     justify-content: center;
     align-items: start;
     gap: 3.35%;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .Games-section{
-    max-width: 30vw;
+    width: 30vw;
     height: 22vw;
     border-color: black;
     border: 2px double black;
@@ -28,38 +30,44 @@
 }
 
 .Games-img{
-    max-width: 30vw;
-    max-height: 20vh;
+    max-width: 250px;
+    max-height: 90px;
     border-radius: 5px;
-    margin-top: 10px;
-    margin: 10px 10px;
+    margin: 10px auto;
 }
 
 .Games-lowerBoxSection{
     max-width: 18.5vw;
     height: 150px;
     margin: 0 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .Games-title{
     font-size: 1.3vw;
+    text-align: center;
 }
 
 .Games-description{
     font-size: 1vw;
+    text-align: center;
 }
 
 .Games-links{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: row;
     gap: 3%;
-    justify-content: center;
+    position: relative;
+    bottom: 5%;
+    left: 22%;
 }
 
 .GameRepo-welcome{
     font-size: 2.4vw;
+}
+
+.Games-button{
+    width: 5.5vw;
+    font-size: 0.8vw;
+    font-weight: bold;
 }
