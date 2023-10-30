@@ -9,11 +9,11 @@ export default function Repository(props) {
             <div className="Repository-lowerBoxSection">
                 <div>
                 <h1 className="Repository-title">{props.title}</h1>
-                <h2 className="Repository-description">{props.description}</h2>
+                <p className="Repository-description">{props.description}</p>
                 </div>
                 <div className="Repository-links">
                     <a href={props.repo}  target="_blank"  rel="noreferrer">
-                    <button className="Repository-githubCode">Github Code</button> </a>
+                    <button className="Repository-githubCode">Github</button></a>
                     <a href={props.app} target="_blank"  rel="noreferrer">
                     <button className="Repository-Demo">Demo</button></a>
                 </div>            

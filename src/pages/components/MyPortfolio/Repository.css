@@ -1,6 +1,8 @@
 .MyPortfolio-box{
     border-top: 2px solid black;
     margin-bottom: 10%;
+    margin-left: 1.8%;
+    margin-right: 1.8%;
 }
 
 .MyPortfolio-description{
@@ -10,21 +12,22 @@
 
 .Repository-list{
     display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    gap: 1.35%;
-    margin-left: 15%;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .Repository-section{
-    max-width: 30vw;
-    height: 22vw;
-    border-color: black;
-    border: 2px double black;
-    margin-top: 4%;
+    background-color: rgb(211, 215, 211);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 170px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    white-space: pre-wrap;
+    max-width: 960px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .Repository-img{
@@ -32,24 +35,26 @@
     max-height: 20vh;
     border-radius: 5px;
     margin-top: 10px;
-    margin: 10px 10px;
+    margin: 10px auto;
 }
 
 .Repository-lowerBoxSection{
-    max-width: 18.5vw;
-    height: 150px;
+    max-width: 20vw;
+    height: 20vh;
     margin: 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .Repository-title{
-    font-size: 1.3vw;
+    font-size: 3.5vh;
 }
 
 .Repository-description{
-    font-size: 1vw;
+    font-size: 2vh;
+    max-width: 100%;
 }
 
 .Repository-links{
@@ -62,4 +67,9 @@
 
 .MyPortfolio-welcome{
     font-size: 2.4vw;
+}
+
+.MyPortfolio-welcomeDescription{
+    margin-bottom: 5vh;
+    font-size: 2vw;
 }
