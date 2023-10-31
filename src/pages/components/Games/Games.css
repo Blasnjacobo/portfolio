@@ -62,6 +62,24 @@
     left: 22%;
 }
 
+.square{
+    background-image: url('./football.jpg');
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.goal{
+    background-image: url('./goal.jpg');
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
+
+.fotball{
+    margin-top: 15px;
+}
+
 .GameRepo-welcome{
     font-size: 2.4vw;
 }

@@ -1,6 +1,7 @@
-import React from "react";
+import * as React from "react";
 import "./Hero.css"
 import Navbar from "../Navbar/Navbar";
+
 
 
 export default function HeroSection() {
