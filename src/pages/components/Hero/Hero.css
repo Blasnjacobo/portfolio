@@ -27,7 +27,7 @@ body{
 
 .content-box{
     display: flex;
-    background-color: rgb(223, 244, 222);
+    background-color: rgb(236, 248, 236);
     justify-content: center;
     align-items: center;
     border-top: 2px solid black;
@@ -98,49 +98,44 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-  
-.icon-html{
-    background-image: url("./Softwares/html.png");
-    color: transparent;
-  }
 
-.icon-javaScript{
-    background-image: url("./Softwares/javaScript.png");
-    color: transparent;
-}
-.icon-react{
-    background-image: url("./Softwares/react.png");
-    color: transparent;
+.icon-javaScript::before, .icon-react::before, .icon-css::before, .icon-html::before, .icon-nodeJs::before, .icon-mySql::before, .icon-springboot::before, .icon-git::before{
+    position: absolute;
+    font-family: 'FontAwesome';
+    color: rgba(30, 29, 29, 0.296);
+    font-size: 2vw;
 }
 
-.icon-nodeJs{
-    background-image: url("./Softwares/nodeJs.png");
-    color: transparent;
+.icon-javaScript::before{
+    content: "\f3b9";
 }
 
-.icon-mySql{
-    background-image: url("./Softwares/MySQL.png");
-    color: transparent;
+.icon-html::before{
+    content: "\f13b";
 }
 
-.icon-springboot{
-    background-image: url("./Softwares/springboot.png");
-    color: transparent;
+.icon-css::before{
+    content: "\f38b";
 }
 
-.icon-git{
-    background-image: url("./Softwares/git.png");
-    color: transparent;
+.icon-react::before{
+    content: "\f41b";
 }
 
-.icon-css{
-    background-image: url("./Softwares/css.png");
-    color: transparent;
+.icon-nodeJs::before{
+    content: "\f419";
 }
+
+
+.icon-git::before{
+    content: "\f841";
+}
+
 
   .icon:hover{
-    background-image: none;
-    color: black
+    font-family: 'FontAwesome';
+    color: rgba(19, 92, 31, 0.688);
+    font-weight: bold;
   }
 
   .icon-css, .icon-git, .icon-springboot, .icon-mySql, .icon-nodeJs, .icon-react, .icon-javaScript, .icon-html{
