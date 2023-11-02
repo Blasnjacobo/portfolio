@@ -4,62 +4,65 @@
 
 .GamesRepo-description{
     text-align: center;
-    margin-top: 3%;
+    margin-top: 1.5%;
+    font-size: 1.5rem;
 }
 
 .Game-list{
      display: grid;
     /*grid-template-columns: repeat(2, 1fr);*/
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    gap: 3.35%;
     margin-left: 5vw;
     margin-right: 5vw;
+    display: grid;
+    gap: 5vw;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .Games-section{
-    width: 30vw;
-    height: 22vw;
+    height: 50vh;
     border-color: black;
-    border: 2px double black;
+    border: 2px solid black;
     margin-top: 4%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    white-space: pre-wrap;
+    align-items: center;
+    background-color: rgb(231, 231, 228);
+    border-radius: 10px;
 }
 
 .Games-img{
-    max-width: 250px;
-    max-height: 90px;
+    width: 70%;
+    height: 20vh;
     border-radius: 5px;
     margin: 10px auto;
 }
 
 .Games-lowerBoxSection{
-    max-width: 18.5vw;
-    height: 150px;
-    margin: 0 10px;
+    width: 90%;
+    height: 20vh;
+    margin: 0 10px;  
 }
 
 .Games-title{
-    font-size: 1.3vw;
+    font-size: 3.5vh;
     text-align: center;
+    height: 6vh;
 }
 
 .Games-description{
-    font-size: 1vw;
+    font-size: 1.5vw;
     text-align: center;
+    height: 30vh;
+    max-width: 100%;
 }
 
 .Games-links{
-    margin-bottom: 0px;
     display: flex;
     flex-direction: row;
     gap: 3%;
     position: relative;
     bottom: 5%;
-    left: 22%;
 }
 
 .square{
@@ -85,8 +88,14 @@
 }
 
 .Games-button{
-    width: 5.5vw;
-    font-size: 0.8vw;
+    width: 10rem;
+    height: 5vh;
+    font-size: 0.7rem;
     font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(182, 183, 183);
+    color: white;
+    border: 1.5px solid black;
+    cursor: pointer;
 }
 

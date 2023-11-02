@@ -26,8 +26,7 @@ body{
 
 .content-box{
     display: flex;
-    background: rgb(174,238,196);
-    background: radial-gradient(circle, rgba(174,238,196,1) 0%, rgba(188,233,218,1) 100%);
+    background: rgb(231, 231, 228);
     justify-content: center;
     align-items: center;
     border-top: 2px solid black;
@@ -36,15 +35,14 @@ body{
 }
 
 .content{
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
-    gap: 20px;
-    margin-left: 150px;
-    max-width: 30vw;
+    gap: 2vh;
+    width: 30%;
     max-height: 80vh;
+    margin-left: 5vw;
 }
 
 .square-text{
@@ -53,7 +51,7 @@ body{
 
 .introduction{
     width: 100%;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 
@@ -72,7 +70,6 @@ body{
 }
 
 .greeting{
-    margin-bottom: -20px;
     font-size: 1.2vw;
 }
 
@@ -81,8 +78,7 @@ body{
 }
 
 .picture{
-    width:50%;
-    height:auto;
+    max-width:40%;
 }
 
 .and{
@@ -91,8 +87,8 @@ body{
 }
 
 .icon{
-    width: 50px;
-    height: 30px;
+    width: 5vw;
+    height: 3vh;
     border-radius: 5px;
 }
 
@@ -156,6 +152,7 @@ body{
   .hero-software{
     font-weight: bold;
     font-size: 1.6vw;
+    width: 20vw;
   }
 
   .picture{

@@ -1,6 +1,6 @@
 .MyPortfolio-box{
     border-top: 2px solid black;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     margin-left: 1.8%;
     margin-right: 1.8%;
 }
@@ -18,51 +18,66 @@
 
 .Repository-section{
     background-color: rgb(211, 215, 211);
-    margin-bottom: 10px;
     border-radius: 10px;
     padding: 1rem;
-    min-height: 170px;
     display: flex;
     flex-direction: column;
     white-space: pre-wrap;
-    max-width: 960px;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 .Repository-img{
-    max-width: 30vw;
-    max-height: 20vh;
+    width: 70%;
+    height: 20vh;
     border-radius: 5px;
     margin-top: 10px;
     margin: 10px auto;
 }
 
 .Repository-lowerBoxSection{
-    max-width: 20vw;
+    width: 90%;
     height: 20vh;
-    margin: 0 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
 }
 
 .Repository-title{
-    font-size: 3.5vh;
+    font-size: 3vh;
+    text-align: center;
+    height: 4vh;
+}
+.Respository-TDL{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5vh;
+    height: 20vh;
 }
 
 .Repository-description{
-    font-size: 2vh;
+    font-size: 2.5vh;
     max-width: 100%;
 }
 
 .Repository-links{
-    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     gap: 3%;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.Games-button2{
+    width: 7rem;
+    height: 4vh;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(182, 183, 183);
+    color: white;
+    border: 1.5px solid black;
+    cursor: pointer;
 }
 
 .MyPortfolio-welcome{
@@ -72,4 +87,4 @@
 .MyPortfolio-welcomeDescription{
     margin-bottom: 5vh;
     font-size: 2vw;
-}
+} 

@@ -14,8 +14,8 @@ export default function HeroSection () {
       <Navbar />
       <div className='content-box'>
         <div className='content'>
-          <h5 className='greeting'>Hey there, I'am</h5>
           <div>
+            <h5 className='greeting'>Hey there, I'am</h5>
             <h1 className='full-inName'><spam className='name'>Blas Nunez</spam></h1>
             <h4 className='front-end'>Web Developer</h4>
           </div>

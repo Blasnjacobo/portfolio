@@ -41,5 +41,13 @@ export default RepoData =
     repo: 'https://github.com/Blasnjacobo/translator',
     img: 'https://github.com/Blasnjacobo/translator/blob/main/src/translatorApp.png?raw=true',
     description: 'Translator using react, and Text Translator Api fetch'
+  },
+  {
+    id: 6,
+    title: 'Personal Project in Progress',
+    app: '',
+    repo: '',
+    img: 'https://github.com/Blasnjacobo/portfolio/blob/main/src/pages/components/MyPortfolio/Flixprop.png?raw=true',
+    description: 'Creating a website to sell updated cinema merchadise'
   }
 ]
