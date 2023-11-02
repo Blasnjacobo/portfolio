@@ -4,7 +4,7 @@ export default RepoData =
 [
   {
     id: 1,
-    title: 'Notes-app',
+    title: 'Notes',
     app: 'https://blasnjacobo.github.io/notes-app/',
     repo: 'https://github.com/Blasnjacobo/notes-app',
     img: 'https://github.com/Blasnjacobo/notes-app/blob/main/src/notes-app.png?raw=true',
@@ -12,7 +12,7 @@ export default RepoData =
   },
   {
     id: 2,
-    title: 'Weather-app',
+    title: 'Live Weather',
     app: 'https://blasnjacobo.github.io/weather-app/',
     repo: 'https://github.com/Blasnjacobo/weather-app',
     img: 'https://github.com/Blasnjacobo/weather-app/blob/main/weather-app.png?raw=true',
@@ -20,7 +20,7 @@ export default RepoData =
   },
   {
     id: 3,
-    title: 'Quiz-app',
+    title: 'Quizzes',
     app: 'https://blasnjacobo.github.io/quiz-app',
     repo: 'https://github.com/Blasnjacobo/quiz-app',
     img: 'https://github.com/Blasnjacobo/quiz-app/blob/main/src/assets/quizApp.png?raw=true',
@@ -28,26 +28,18 @@ export default RepoData =
   },
   {
     id: 4,
-    title: 'Tenzies',
-    app: 'https://blasnjacobo.github.io/tenzies/',
-    repo: 'https://github.com/Blasnjacobo/tenzies',
-    img: 'https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Programming is 10% writing code and 90% understanding why it’s not working'
-  },
-  {
-    id: 5,
     title: 'Meme generator',
     app: 'https://blasnjacobo.github.io/meme-generator/',
     repo: 'https://github.com/Blasnjacobo/meme-generator/tree/main',
     img: 'https://raw.githubusercontent.com/Blasnjacobo/meme-generator/main/src/Meme/meme-generator.png',
-    description: 'Creates random memes using you own sense of humor'
+    description: 'Created using React and fetch for API https://api.imgflip.com/get_memes'
   },
   {
-    id: 6,
-    title: 'Tenzies',
-    app: 'https://blasnjacobo.github.io/tenzies/',
-    repo: 'https://github.com/Blasnjacobo/tenzies',
-    img: 'https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'What did the Java Code say to the C code? You’ve got no class'
+    id: 5,
+    title: 'Translation',
+    app: 'https://blasnjacobo.github.io/translator/',
+    repo: 'https://github.com/Blasnjacobo/translator',
+    img: 'https://github.com/Blasnjacobo/translator/blob/main/src/translatorApp.png?raw=true',
+    description: 'Translator using react, and Text Translator Api fetch'
   }
 ]

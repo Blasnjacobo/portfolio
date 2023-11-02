@@ -25,13 +25,5 @@ export default gamesRepo =
     repo: 'https://github.com/Blasnjacobo/tenzies',
     img: 'https://github.com/Blasnjacobo/tenzies/blob/main/src/tenzies.png?raw=true',
     description: 'Roll until all dice are the same'
-  },
-  {
-    id: 4,
-    title: 'Meme generator',
-    app: 'https://blasnjacobo.github.io/meme-generator/',
-    repo: 'https://github.com/Blasnjacobo/meme-generator/tree/main',
-    img: 'https://raw.githubusercontent.com/Blasnjacobo/meme-generator/main/src/Meme/meme-generator.png',
-    description: 'Creates random memes using you own sense of humor'
   }
 ]
