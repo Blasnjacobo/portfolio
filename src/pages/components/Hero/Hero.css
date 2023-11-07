@@ -26,12 +26,13 @@ body{
 
 .content-box{
     display: flex;
-    background: rgb(231, 231, 228);
+    background: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     border-top: 2px solid black;
     height: 90vh;
     width: 100vw;
+    gap: 5vw;
 }
 
 .content{
@@ -57,10 +58,10 @@ body{
 
 .name{
     font-family: cursive;
-    color: white;
+    color: rgb(6, 92, 21);
     width:20vh;
     height:50%;
-    text-shadow:  rgb(6, 92, 21) 4px 2px 4px;
+    text-shadow:  rgb(6, 92, 21) 1px 1px 1px;
 }
 
 .front-end{
@@ -90,7 +91,10 @@ body{
     width: 5vw;
     height: 3vh;
     border-radius: 5px;
+    padding: 3vh;
+    border-bottom: 3px solid rgba(19, 92, 31, 0.688);
 }
+
 
 .section-icons{
     display: flex;
@@ -99,12 +103,13 @@ body{
     grid-template-columns: repeat(4, 1fr);
 }
 
-.icon-javaScript::before, .icon-react::before, .icon-css::before, .icon-html::before, .icon-nodeJs::before, .icon-mySql::before, .icon-springboot::before, .icon-git::before{
+.icon-javaScript::before, .icon-react::before, .icon-css::before, .icon-html::before, .icon-nodeJs::before, .icon-github::before, .icon-git::before{
     position: absolute;
     font-family: 'FontAwesome';
-    color: rgba(30, 29, 29, 0.296);
     font-size: 2vw;
+    color: rgb(47, 58, 58);
 }
+
 
 .icon-javaScript::before{
     content: "\f3b9";
@@ -131,6 +136,10 @@ body{
     content: "\f841";
 }
 
+.icon-github::before{
+    content: "\f09b";
+}
+
 
   .icon:hover{
     font-family: 'FontAwesome';
@@ -138,7 +147,7 @@ body{
     font-weight: bold;
   }
 
-  .icon-css, .icon-git, .icon-springboot, .icon-mySql, .icon-nodeJs, .icon-react, .icon-javaScript, .icon-html{
+  .icon-css, .icon-git, .icon-github, .icon-nodeJs, .icon-react, .icon-javaScript, .icon-html{
     max-width: 80px;
     max-height: 80px;
     font-size: 12px;
@@ -157,10 +166,13 @@ body{
 
   .picture{
     background-image: url("./Blas.png");
-    max-width: 400px;
-    height: 450px;
+    max-width: 500px;
+    height: 480px;
+    object-fit: cover;
     color: transparent;
+    border-top: 4px solid green;
   }
+
 
   .picture:hover{
     background-image: none;

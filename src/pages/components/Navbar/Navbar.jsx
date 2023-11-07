@@ -14,9 +14,9 @@ export default function Navbar () {
         <button className='resume'>Resume 📁</button>
       </a>
       <div className='navbar-itesm'>
-        <p className='navbar-link'><Link to='/portfolio' style={style}>Home</Link></p>
-        <p className='navbar-link'><Link to='/portfolio/myPortfolio' style={style}>Portfolio</Link></p>
-        <p className='navbar-link'><Link to='/portfolio/games' style={style}>Games</Link></p>
+        <h3 className='navbar-link'><Link to='/portfolio' style={style}>Home</Link></h3>
+        <h3 className='navbar-link'><Link to='/portfolio/myPortfolio' style={style}>Portfolio</Link></h3>
+        <h3 className='navbar-link'><Link to='/portfolio/games' style={style}>Games</Link></h3>
       </div>
       <p className='navbar-link navbar-contact'><Link to='/portfolio/contactMe' style={style}>🙋🏻Contact Me 🙋🏼</Link></p>
     </div>

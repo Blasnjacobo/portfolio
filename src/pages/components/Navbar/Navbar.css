@@ -30,16 +30,18 @@
 
 .navbar-itesm{
     display: flex;
-    gap: 7vw;
+    gap: 8vw;
+    font-size: 2vh;
 }
 
 .resume{
-    padding: 0.5rem 0.5rem;
+    padding: 0.3rem 0.5rem;
     cursor: pointer;
     border-radius: 8px;
     border-color: rgb(3, 7, 1);
     font-family: cursive;
     box-shadow: 2px 2px  2px  0 black;
+    font-size: 1 vw;
 }
 
 .resume:hover {
@@ -50,11 +52,10 @@
 
 .navbar-link{
     text-decoration: none;
-    font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
 .navbar-contact{
-    font-weight: bold;
+    font-size: 2vh;
 }

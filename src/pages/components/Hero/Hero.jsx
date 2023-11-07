@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar'
 
 export default function HeroSection () {
   function aboutMeDescription () {
-    const str = 'About Me: I am a mechatronics engineer who has worked in different kind of projects such as building an electrical car door, research in automating the process of counting tree frogs using python and giving IT technical support to USAA, but then I realized that my biggest passion lies on web development, so I have been creating some really nice projects you can dig in by looking at the portfolio section.'
+    const str = 'About Me:\n I am a mechatronics engineer who has worked in different kind of projects such as building an electrical car door, research in automating the process of counting tree frogs using python and giving IT technical support to USAA, but then I realized that my biggest passion lies on web development, so I have been creating some really nice projects you can dig in by looking at the portfolio section.'
     return str
   }
 
@@ -24,14 +24,13 @@ export default function HeroSection () {
           </p>
           <p className='hero-software'>Software:</p>
           <div className='section-icons'>
-            <div className='icon icon-html'>HTML</div>
-            <div className='icon icon-css'>CSS</div>
-            <div className='icon icon-javaScript'>JavaScript</div>
-            <div className='icon icon-react'>React</div>
-            <div className='icon icon-nodeJs'>NodeJs</div>
-            <div className='icon icon-mySql'>MySQL</div>
-            <div className='icon icon-springboot'>Springboot</div>
-            <div className='icon icon-git'>Git</div>
+            <div className='icon icon-html' />
+            <div className='icon icon-css' />
+            <div className='icon icon-javaScript' />
+            <div className='icon icon-react' />
+            <div className='icon icon-nodeJs' />
+            <div className='icon icon-github' />
+            <div className='icon icon-git' />
           </div>
         </div>
         <div className='picture'>{aboutMeDescription()}</div>
