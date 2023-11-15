@@ -4,19 +4,19 @@ export default RepoData =
 [
   {
     id: 1,
+    title: 'Movie section',
+    app: 'https://blasnjacobo.github.io/movie-series/',
+    repo: 'https://blasnjacobo.github.io/movie-series/',
+    img: 'https://github.com/Blasnjacobo/movie-series/blob/main/src/components/movie-series.png?raw=true',
+    description: 'Movey platform created with react'
+  },
+  {
+    id: 2,
     title: 'Notes',
     app: 'https://blasnjacobo.github.io/notes-app/',
     repo: 'https://github.com/Blasnjacobo/notes-app',
     img: 'https://github.com/Blasnjacobo/notes-app/blob/main/src/notes-app.png?raw=true',
     description: 'Creating a basic notes app using react'
-  },
-  {
-    id: 2,
-    title: 'Live Weather',
-    app: 'https://blasnjacobo.github.io/weather-app/',
-    repo: 'https://github.com/Blasnjacobo/weather-app',
-    img: 'https://github.com/Blasnjacobo/weather-app/blob/main/weather-app.png?raw=true',
-    description: 'Creating a weather app WITH axios, https://openweathermap.org/current API, AND REACT'
   },
   {
     id: 3,
@@ -44,6 +44,14 @@ export default RepoData =
   },
   {
     id: 6,
+    title: 'Live Weather',
+    app: 'https://blasnjacobo.github.io/weather-app/',
+    repo: 'https://github.com/Blasnjacobo/weather-app',
+    img: 'https://github.com/Blasnjacobo/weather-app/blob/main/weather-app.png?raw=true',
+    description: 'Creating a weather app WITH axios, https://openweathermap.org/current API, AND REACT'
+  },
+  {
+    id: 7,
     title: 'Personal Project in Progress',
     app: '',
     repo: '',
