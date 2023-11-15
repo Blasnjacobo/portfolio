@@ -8,7 +8,7 @@ export default RepoData =
     app: 'https://blasnjacobo.github.io/movie-series/',
     repo: 'https://blasnjacobo.github.io/movie-series/',
     img: 'https://github.com/Blasnjacobo/movie-series/blob/main/src/components/movie-series.png?raw=true',
-    description: 'Movey platform created with react'
+    description: 'Movie platform created with react'
   },
   {
     id: 2,
