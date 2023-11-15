@@ -6,7 +6,7 @@ export default RepoData =
     id: 1,
     title: 'Movie section',
     app: 'https://blasnjacobo.github.io/movie-series/',
-    repo: 'https://blasnjacobo.github.io/movie-series/',
+    repo: 'https://github.com/Blasnjacobo/movie-series',
     img: 'https://github.com/Blasnjacobo/movie-series/blob/main/src/components/movie-series.png?raw=true',
     description: 'Movie platform created with react'
   },
