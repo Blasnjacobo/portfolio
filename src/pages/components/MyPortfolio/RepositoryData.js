@@ -48,15 +48,15 @@ export default RepoData =
     app: 'https://blasnjacobo.github.io/weather-app/',
     repo: 'https://github.com/Blasnjacobo/weather-app',
     img: 'https://github.com/Blasnjacobo/weather-app/blob/main/weather-app.png?raw=true',
-    description: 'Creating a weather app WITH axios, https://openweathermap.org/current API, AND REACT'
+    description: 'Creating a weather app WITH axios, AND REACT'
   },
   {
     id: 7,
-    title: 'Personal Project in Progress',
+    title: 'Personal Project',
     app: '',
     repo: '',
     img: 'https://github.com/Blasnjacobo/portfolio/blob/main/src/pages/components/MyPortfolio/Flixprop.png?raw=true',
-    description: 'Creating a website to sell updated cinema merchandise'
+    description: 'Creating a website to sell updated cinema merchandise, still in process...'
   },
   {
     id: 2,
