@@ -12,11 +12,11 @@ export default RepoData =
   },
   {
     id: 2,
-    title: 'Notes',
-    app: 'https://blasnjacobo.github.io/notes-app/',
-    repo: 'https://github.com/Blasnjacobo/notes-app',
-    img: 'https://github.com/Blasnjacobo/notes-app/blob/main/src/notes-app.png?raw=true',
-    description: 'Creating a basic notes app using react'
+    title: 'Shopping Cart',
+    app: 'https://blasnjacobo.github.io/shopping-cart',
+    repo: 'https://github.com/Blasnjacobo/shopping-cart',
+    img: 'https://github.com/Blasnjacobo/shopping-cart/blob/main/public/shopping-cart.png?raw=true',
+    description: 'React project with Typescript and Bootstrap'
   },
   {
     id: 3,
@@ -56,6 +56,14 @@ export default RepoData =
     app: '',
     repo: '',
     img: 'https://github.com/Blasnjacobo/portfolio/blob/main/src/pages/components/MyPortfolio/Flixprop.png?raw=true',
-    description: 'Creating a website to sell updated cinema merchadise'
+    description: 'Creating a website to sell updated cinema merchandise'
+  },
+  {
+    id: 2,
+    title: 'Notes',
+    app: 'https://blasnjacobo.github.io/notes-app/',
+    repo: 'https://github.com/Blasnjacobo/notes-app',
+    img: 'https://github.com/Blasnjacobo/notes-app/blob/main/src/notes-app.png?raw=true',
+    description: 'Creating a basic notes app using react'
   }
 ]

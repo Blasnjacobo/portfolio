@@ -31,6 +31,7 @@ export default function HeroSection () {
             <div className='icon icon-nodeJs' />
             <div className='icon icon-github' />
             <div className='icon icon-git' />
+            <div className='icon icon-typescript' />
           </div>
         </div>
         <div className='picture'>{aboutMeDescription()}</div>
