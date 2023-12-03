@@ -28,11 +28,11 @@ export default RepoData =
   },
   {
     id: 4,
-    title: 'Meme generator',
-    app: 'https://blasnjacobo.github.io/meme-generator/',
-    repo: 'https://github.com/Blasnjacobo/meme-generator/tree/main',
-    img: 'https://raw.githubusercontent.com/Blasnjacobo/meme-generator/main/src/Meme/meme-generator.png',
-    description: 'Created using React and fetch for API https://api.imgflip.com/get_memes'
+    title: 'MERN FULLSTACK sign up and login',
+    app: 'https://auth-api-eosin.vercel.app/',
+    repo: 'https://github.com/Blasnjacobo/auth-api',
+    img: 'https://github.com/Blasnjacobo/auth-api/blob/main/client/public/registration_mern.png?raw=true',
+    description: 'Basic Dashboard project with sign in with mongoose'
   },
   {
     id: 5,
@@ -59,11 +59,19 @@ export default RepoData =
     description: 'Creating a website to sell updated cinema merchandise, still in process...'
   },
   {
-    id: 2,
+    id: 8,
     title: 'Notes',
     app: 'https://blasnjacobo.github.io/notes-app/',
     repo: 'https://github.com/Blasnjacobo/notes-app',
     img: 'https://github.com/Blasnjacobo/notes-app/blob/main/src/notes-app.png?raw=true',
     description: 'Creating a basic notes app using react'
+  },
+  {
+    id: 9,
+    title: 'Meme generator',
+    app: 'https://blasnjacobo.github.io/meme-generator/',
+    repo: 'https://github.com/Blasnjacobo/meme-generator/tree/main',
+    img: 'https://raw.githubusercontent.com/Blasnjacobo/meme-generator/main/src/Meme/meme-generator.png',
+    description: 'Created using React and fetch for API https://api.imgflip.com/get_memes'
   }
 ]
