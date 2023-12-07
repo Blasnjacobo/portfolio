@@ -31,8 +31,8 @@ export default RepoData =
     title: 'MERN FULLSTACK website',
     app: 'https://6572281633382a0ae5ab9e41--preeminent-capybara-9e01c4.netlify.app/',
     repo: 'https://github.com/Blasnjacobo/Dashboard',
-    img: 'https://github.com/Blasnjacobo/auth-api/blob/main/client/public/registration_mern.png?raw=true',
-    description: 'Basic Dashboard project with sign in with mongoose'
+    img: 'https://github.com/Blasnjacobo/Dashboard/blob/main/website_pic.png?raw=true',
+    description: 'My own Website with mongoose and react'
   },
   {
     id: 5,
