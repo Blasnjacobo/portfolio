@@ -20,11 +20,11 @@ export default RepoData =
   },
   {
     id: 3,
-    title: 'Quizzes',
-    app: 'https://blasnjacobo.github.io/quiz-app',
-    repo: 'https://github.com/Blasnjacobo/quiz-app',
-    img: 'https://github.com/Blasnjacobo/quiz-app/blob/main/src/assets/quizApp.png?raw=true',
-    description: 'Quizz App using react, Tailwind and Router'
+    title: 'Travel Advisor',
+    app: 'https://blasnjacobo.github.io/Travel-advisor',
+    repo: 'https://github.com/Blasnjacobo/Travel-advisor',
+    img: 'https://github.com/Blasnjacobo/Travel-advisor/blob/main/public/Travel-advisor.png?raw=true',
+    description: 'React with material ui, and Google-map-react,'
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ export default RepoData =
     app: 'https://6572281633382a0ae5ab9e41--preeminent-capybara-9e01c4.netlify.app/',
     repo: 'https://github.com/Blasnjacobo/Dashboard',
     img: 'https://github.com/Blasnjacobo/Dashboard/blob/main/website_pic.png?raw=true',
-    description: 'My own Website with mongoose and react'
+    description: 'I am still working on optimizing the cold start after clicking the login button, if this page hasnt been active for a while it could take up to 1 minute to load, thanks for your comprehension'
   },
   {
     id: 5,
@@ -73,5 +73,13 @@ export default RepoData =
     repo: 'https://github.com/Blasnjacobo/meme-generator/tree/main',
     img: 'https://raw.githubusercontent.com/Blasnjacobo/meme-generator/main/src/Meme/meme-generator.png',
     description: 'Created using React and fetch for API https://api.imgflip.com/get_memes'
+  },
+  {
+    id: 10,
+    title: 'Quizzes',
+    app: 'https://blasnjacobo.github.io/quiz-app',
+    repo: 'https://github.com/Blasnjacobo/quiz-app',
+    img: 'https://github.com/Blasnjacobo/quiz-app/blob/main/src/assets/quizApp.png?raw=true',
+    description: 'Quizz App using react, Tailwind and Router'
   }
 ]
