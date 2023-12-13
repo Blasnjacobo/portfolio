@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4fc17beb.css",
-    "main.js": "/portfolio/static/js/main.abd9ca56.js",
+    "main.js": "/portfolio/static/js/main.d4c539e7.js",
     "static/media/Blas.png": "/portfolio/static/media/Blas.dc4a4a202bff6af04a98.png",
     "static/media/BlasNunezJacobo_cv.pdf": "/portfolio/static/media/BlasNunezJacobo_cv.4f96d6f647fd1df21ceb.pdf",
     "static/media/football.jpg": "/portfolio/static/media/football.b5165d25c00a056ebbf5.jpg",
     "static/media/goal.jpg": "/portfolio/static/media/goal.f82040251a1bf928c059.jpg",
     "index.html": "/portfolio/index.html",
     "main.4fc17beb.css.map": "/portfolio/static/css/main.4fc17beb.css.map",
-    "main.abd9ca56.js.map": "/portfolio/static/js/main.abd9ca56.js.map"
+    "main.d4c539e7.js.map": "/portfolio/static/js/main.d4c539e7.js.map"
   },
   "entrypoints": [
     "static/css/main.4fc17beb.css",
-    "static/js/main.abd9ca56.js"
+    "static/js/main.d4c539e7.js"
   ]
 }
