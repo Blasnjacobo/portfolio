@@ -44,11 +44,11 @@ export default RepoData =
   },
   {
     id: 6,
-    title: 'Live Weather',
-    app: 'https://blasnjacobo.github.io/weather-app/',
-    repo: 'https://github.com/Blasnjacobo/weather-app',
-    img: 'https://github.com/Blasnjacobo/weather-app/blob/main/weather-app.png?raw=true',
-    description: 'Creating a weather app WITH axios, AND REACT'
+    title: 'Metal and Wood Products website',
+    app: 'https://metalandwoodproducts.com/',
+    repo: '',
+    img: 'https://github.com/Blasnjacobo/tenzies/blob/main/src/image.png?raw=true',
+    description: 'Companys website'
   },
   {
     id: 7,
