@@ -14,11 +14,11 @@ export default RepoData = [
   },
   {
     id: 2,
-    title: "Shopping Cart",
+    title: "SAYMI PERFUME SHOP",
     app: "https://blasnjacobo.github.io/shopping-cart",
     repo: "https://github.com/Blasnjacobo/shopping-cart",
     img: "https://github.com/Blasnjacobo/shopping-cart/blob/main/public/shopping-cart.png?raw=true",
-    description: "React project with Typescript and Bootstrap",
+    description: "Currently working on  with customer for a E-Commerce Perfume Store",
   },
   {
     id: 3,
