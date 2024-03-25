@@ -17,7 +17,7 @@ export default RepoData = [
     title: "Perfumeria",
     app: "https://blasnjacobo.github.io/shopping-cart",
     repo: "https://github.com/Blasnjacobo/shopping-cart",
-    img: "https://github.com/Blasnjacobo/external-files/blob/main/shoppin-cart-mom/Screenshot%202024-03-25%20160030.png?raw=true",
+    img: "https://github.com/Blasnjacobo/external-files/blob/main/shoppin-cart-mom/perfumeria.png?raw=true",
     description: "Currently working on  with customer for a E-Commerce Perfume Store",
   },
   {
