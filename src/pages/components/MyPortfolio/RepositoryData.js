@@ -14,10 +14,10 @@ export default RepoData = [
   },
   {
     id: 2,
-    title: "SAYMI PERFUME SHOP",
+    title: "Perfumeria",
     app: "https://blasnjacobo.github.io/shopping-cart",
     repo: "https://github.com/Blasnjacobo/shopping-cart",
-    img: "https://github.com/Blasnjacobo/shopping-cart/blob/main/public/shopping-cart.png?raw=true",
+    img: "https://github.com/Blasnjacobo/external-files/blob/main/shoppin-cart-mom/Screenshot%202024-03-25%20160030.png?raw=true",
     description: "Currently working on  with customer for a E-Commerce Perfume Store",
   },
   {
@@ -35,7 +35,7 @@ export default RepoData = [
     repo: "https://github.com/Blasnjacobo/Dashboard",
     img: "https://github.com/Blasnjacobo/Dashboard/blob/main/website_pic.png?raw=true",
     description:
-      "I am still working on optimizing the cold start after clicking the login button, if this page hasnt been active for a while it could take up to 1 minute to load, thanks for your comprehension",
+      "My free backend server instance will spin down with inactivity, which can delay requests by 50 seconds or more",
   },
   {
     id: 5,
