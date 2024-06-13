@@ -21,7 +21,7 @@
 }
 
 body{
-    font-family: "Roboto", "sans-serif";
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .homePage-section {
@@ -183,7 +183,7 @@ body{
     width: 100%;
     height: 130px;
     object-fit: contain;
-    border-radius: 15%;
+    border-radius: 5%;
 }
 
 .homePage-Projects-main-card h4 {
@@ -225,7 +225,7 @@ body{
 }
 
 .name{
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     width:20vh;
     height:50%;
@@ -330,7 +330,7 @@ body{
     .homePage-container {
         grid-template-columns: 1fr;
         width: 95%;
-        gap: 1rem;
+        gap: 2rem;
         margin: auto;
         padding-top: 1rem;
     }
@@ -338,6 +338,7 @@ body{
     .homePage-container-info-soft {
         width: 100%;
         margin: auto;
+        padding-top: 1rem;
     }
 
     .homePage-container-info,
@@ -392,8 +393,38 @@ body{
         grid-template-columns: repeat(4, 1fr);
     }
 
+    .homePage-Projects {
+        padding-top: 1rem;
+    }
+
+    .homePage-Projects-container {
+        width: 95vw;
+        padding-top: 1rem;
+    }
+
     .homePage-Projects-main {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .homePage-Projects-titleVerMas h1 {
+        font-size: 18px;
+    }
+
+    .homePage-Projects-titleVerMas p {
+        padding-top: 0;
+    }
+
+    .homePage-Projects-main-card {
+        height: 180px; 
+    }
+    
+    .homePage-Projects-main-card img {
+        height: 150px;
+    }
+
+    
+    .homePage-Projects-main-card h4 {
+       font-size: 12px;
+       height: 30px;
     }
 
   }
