@@ -25,7 +25,8 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 2vw;
-    height: 10vh; 
+    height: 10vh;
+    border-bottom: 1px solid black;
 }
 
 .navbar-itesm{

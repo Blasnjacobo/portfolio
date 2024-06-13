@@ -56,8 +56,8 @@ export default RepoData = [
   {
     id: 7,
     title: "Personal Project",
-    app: "",
-    repo: "",
+    app: "www.flixprop.com",
+    repo: "https://github.com/Blasnjacobo/flixprop",
     img: "https://github.com/Blasnjacobo/portfolio/blob/main/src/pages/components/MyPortfolio/Flixprop.png?raw=true",
     description:
       "Creating a website to sell updated cinema merchandise, still in process...",

@@ -1,32 +1,24 @@
-import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import MyPortfolio from './pages/components/MyPortfolio/MyPortfolio'
-import HeroSection from './pages/components/Hero/Hero'
+import Home from './pages/components/Hero/Home'
 import ContactMe from './pages/components/ContactMe/ContactMe'
 import GameRepo from './pages/components/Games/GameRepo'
-import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Navbar from './pages/components/Navbar/Navbar'
 
-const router = createBrowserRouter([
-  {
-    path: '/portfolio',
-    element: <HeroSection />
-  },
-  {
-    path: '/portfolio/myPortfolio',
-    element: <MyPortfolio />
-  },
-  {
-    path: '/portfolio/games',
-    element: <GameRepo />
-  },
-  {
-    path: '/portfolio/contactMe',
-    element: <ContactMe />
-  }
-])
-
-export default function App () {
+function App () {
   return (
-    <RouterProvider router={router} />
+    <Router>
+      <div className='navbar-container'>
+        <Navbar />
+        <Routes>
+          <Route path='/portfolio' element={<Home />} />
+          <Route path='/portfolio/myPortfolio' element={<MyPortfolio />} />
+          <Route path='/portfolio/games' element={<GameRepo />} />
+          <Route path='/portfolio/contactMe' element={<ContactMe />} />
+        </Routes>
+      </div>
+    </Router>
   )
 }
+
+export default App
