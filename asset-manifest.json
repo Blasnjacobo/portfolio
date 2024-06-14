@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a8b6d6a0.css",
-    "main.js": "/portfolio/static/js/main.d39ae36c.js",
+    "main.css": "/portfolio/static/css/main.c4afd855.css",
+    "main.js": "/portfolio/static/js/main.adb1dabb.js",
     "static/media/Flixprop.png": "/portfolio/static/media/Flixprop.5a82693aee32aa791b29.png",
-    "static/media/BlasNunezJacobo_CV.pdf": "/portfolio/static/media/BlasNunezJacobo_CV.9bc16b06c1e74fc44372.pdf",
+    "static/media/BlasNunezJacobo_cv.pdf": "/portfolio/static/media/BlasNunezJacobo_cv.9bc16b06c1e74fc44372.pdf",
     "static/media/banner.jpg": "/portfolio/static/media/banner.7fff32e2605e5a212f76.jpg",
     "static/media/football.jpg": "/portfolio/static/media/football.b5165d25c00a056ebbf5.jpg",
     "static/media/goal.jpg": "/portfolio/static/media/goal.f82040251a1bf928c059.jpg",
     "index.html": "/portfolio/index.html",
-    "main.a8b6d6a0.css.map": "/portfolio/static/css/main.a8b6d6a0.css.map",
-    "main.d39ae36c.js.map": "/portfolio/static/js/main.d39ae36c.js.map"
+    "main.c4afd855.css.map": "/portfolio/static/css/main.c4afd855.css.map",
+    "main.adb1dabb.js.map": "/portfolio/static/js/main.adb1dabb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8b6d6a0.css",
-    "static/js/main.d39ae36c.js"
+    "static/css/main.c4afd855.css",
+    "static/js/main.adb1dabb.js"
   ]
 }
