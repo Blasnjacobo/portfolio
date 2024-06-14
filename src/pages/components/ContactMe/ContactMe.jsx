@@ -1,6 +1,5 @@
 import React from 'react'
 import './ContactMe.css'
-import Navbar from '../Navbar/Navbar'
 
 export default function ContactMe () {
   // eslint-disable-next-line no-unused-vars
@@ -40,7 +39,6 @@ export default function ContactMe () {
 
   return (
     <section>
-      <Navbar />
       <div className='contactMe-section'>
         <div className='contactGreeting'>
           <h1 className='contactMe-title'>Contact Me</h1>

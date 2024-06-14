@@ -12,17 +12,18 @@
 
 .Repository-list{
     display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
 }
 
 .Repository-section{
     background-color: rgb(211, 215, 211);
     border-radius: 10px;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
-    white-space: pre-wrap;
+    height: fit-content;
+    padding: 1rem 0;
+    margin: 0;
 }
 
 .Repository-img{
@@ -34,12 +35,12 @@
 }
 
 .Repository-lowerBoxSection{
-    width: 90%;
-    height: 25vh;
+    width: 100%;
+    height: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1.5rem;
+    padding-top: 1rem;
     justify-content: space-between;
 }
 
@@ -53,8 +54,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 1.5vh;
-    height: 20vh;
+    gap: 1rem;
+    width: 100%;
 }
 
 .Repository-description{
@@ -89,3 +90,45 @@
     margin-bottom: 5vh;
     font-size: 3vh;
 } 
+
+@media screen and (max-width: 960px) {
+    
+    .MyPortfolio-welcome {
+        font-size: 22px;
+    }
+
+    .MyPortfolio-welcomeDescription {
+        font-size: 16px;
+        padding-top: 1rem;
+    }
+
+    .Repository-section {
+        width: 95%;
+        height: 400px;
+        margin: auto;
+    }
+
+    .Repository-img {
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+
+    .Repository-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Repository-lowerBoxSection{
+        margin-top: 0;
+        padding-top: 0;
+        height: 220px;
+    }
+
+    .Repository-description {
+        width: 80%;
+        margin: auto;
+    }
+
+    .Respository-TDL{
+        gap: 2rem;
+    }
+}

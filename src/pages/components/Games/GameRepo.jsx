@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
 import GamesData from './GamesData'
 import Games from './Games'
 import Animation from './Animation'
@@ -16,7 +15,6 @@ export default function GameRepo () {
   })
   return (
     <section>
-      <Navbar />
       <div className='Games-box'>
         <div className='GamesRepo-description'>
           <h2 className='GameRepo-welcome'>Welcome to the gaming section 🎮</h2>
