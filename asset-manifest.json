@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.19b4e8cd.css",
+    "main.css": "/portfolio/static/css/main.937e560a.css",
     "main.js": "/portfolio/static/js/main.b32997c4.js",
     "static/media/Flixprop.png": "/portfolio/static/media/Flixprop.5a82693aee32aa791b29.png",
     "static/media/BlasNunezJacobo_cv.pdf": "/portfolio/static/media/BlasNunezJacobo_cv.4f96d6f647fd1df21ceb.pdf",
@@ -8,11 +8,11 @@
     "static/media/football.jpg": "/portfolio/static/media/football.b5165d25c00a056ebbf5.jpg",
     "static/media/goal.jpg": "/portfolio/static/media/goal.f82040251a1bf928c059.jpg",
     "index.html": "/portfolio/index.html",
-    "main.19b4e8cd.css.map": "/portfolio/static/css/main.19b4e8cd.css.map",
+    "main.937e560a.css.map": "/portfolio/static/css/main.937e560a.css.map",
     "main.b32997c4.js.map": "/portfolio/static/js/main.b32997c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.19b4e8cd.css",
+    "static/css/main.937e560a.css",
     "static/js/main.b32997c4.js"
   ]
 }
