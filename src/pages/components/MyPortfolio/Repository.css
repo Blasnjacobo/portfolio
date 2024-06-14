@@ -123,6 +123,10 @@
         height: 220px;
     }
 
+    .Respository-TDL h1 {
+        font-size: 18px;
+    }
+
     .Repository-description {
         width: 80%;
         margin: auto;
