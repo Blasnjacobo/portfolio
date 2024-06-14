@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import resume from './BlasNNunezJacobo_CV.pdf'
+import resume from './BlasNunezJacobo_CV.pdf'
 import './Navbar.css'
 
 export default function Navbar () {
