@@ -21,7 +21,8 @@
 }
 
 .navbar-section{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     justify-content: space-between;
     align-items: center;
     margin: 0 2vw;
@@ -33,6 +34,13 @@
     display: flex;
     gap: 8vw;
     font-size: 2vh;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-item {
+    width: 100%;
 }
 
 .resume{
@@ -59,4 +67,22 @@
 
 .navbar-contact{
     font-size: 2vh;
+}
+
+
+@media screen and (max-width: 960px) {
+
+    
+    .navbar-section{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    .navbar-itesm{
+        gap: 20px;
+    }
+
+    .navbar-link {
+        font-size: 14px;
+    }
+
 }

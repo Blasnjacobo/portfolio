@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
 import RepositoryData from './RepositoryData'
 import Repository from './Repository'
 
@@ -15,7 +14,6 @@ export default function MyPortfolio () {
   })
   return (
     <section>
-      <Navbar />
       <div className='MyPortfolio-box'>
         <div className='MyPortfolio-description'>
           <h2 className='MyPortfolio-welcome'>Welcome to my portfolio 💼</h2>

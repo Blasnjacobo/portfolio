@@ -10,7 +10,7 @@ export default function Navbar () {
 
   return (
     <div className='navbar-section'>
-      <a href={resume} download='resume-Blas'>
+      <a href={resume} download='resume-Blas' className='navbar-item'>
         <button className='resume'>Resume 📁</button>
       </a>
       <div className='navbar-itesm'>
@@ -18,7 +18,7 @@ export default function Navbar () {
         <h3 className='navbar-link'><Link to='/portfolio/myPortfolio' style={style}>Portfolio</Link></h3>
         <h3 className='navbar-link'><Link to='/portfolio/games' style={style}>Games</Link></h3>
       </div>
-      <p className='navbar-link navbar-contact'><Link to='/portfolio/contactMe' style={style}>🙋🏻Contact Me 🙋🏼</Link></p>
+      <p className='navbar-link navbar-contact navbar-item'><Link to='/portfolio/contactMe' style={style}>Contact Me</Link></p>
     </div>
   )
 }
