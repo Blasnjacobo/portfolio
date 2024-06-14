@@ -76,11 +76,6 @@ export default function Home () {
     setTouchStartX(null)
   }
 
-  const handleCardClick = (data) => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-    window.location.href = data.app
-  }
-
   const handleVerTodos = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
     navigate('/portfolio/myPortfolio')
@@ -124,12 +119,16 @@ export default function Home () {
           <div className='homePage-container-works-cards-card'>
             <img src={flixprop} alt='flixprop website' />
             <p>Flixprop, my own website</p>
-            <button className='homePage-button-flixprop'>Visita la Página</button>
+            <a className='homePage-button-flixprop' href='https://flixprop.com/' target='_blank' rel='noopener noreferrer'>
+              Visita la Página
+            </a>
           </div>
           <div className='homePage-container-works-cards-card'>
             <img src='https://github.com/Blasnjacobo/tenzies/blob/main/src/image.png?raw=true' alt='metal and woods website' />
             <p>Metal and woods Products, Enterprise website</p>
-            <button className='homePage-button-metalAndWoods'>Visita la Página</button>
+            <a className='homePage-button-metalAndWoods' href='https://metalandwoodproducts.com/' target='_blank' rel='noopener noreferrer'>
+              Visita la Página
+            </a>
           </div>
         </div>
       </div>
@@ -146,12 +145,13 @@ export default function Home () {
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
             onTouchEnd={handleTouchEnd}
-          >            {masProyectosData.slice(offset, offset + getDisplayCount()).map((data) => (
-            <div className='homePage-Projects-main-card' key={data.id} onClick={() => handleCardClick(data)}>
-              <img src={data.img} alt={data.title} />
-              <h4>{data.title}</h4>
-            </div>
-          ))}
+          >
+            {masProyectosData.slice(offset, offset + getDisplayCount()).map((data) => (
+              <a className='homePage-Projects-main-card' key={data.id} href={data.app} target='_blank' rel='noopener noreferrer'>
+                <img src={data.img} alt={data.title} />
+                <h4>{data.title}</h4>
+              </a>
+            ))}
           </div>
           <div className='homePage-Projects-scroll-arrows'>
             <div className='homePage-Projects-scroll-left' onClick={scrollLeft}><i className='bi bi-caret-left' /></div>
