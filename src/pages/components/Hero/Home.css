@@ -341,6 +341,10 @@ body{
         padding-top: 1rem;
     }
 
+    .homePage-container-works {
+        height: 480px;
+    }
+
     .homePage-container-info,
     .homePage-container-info-soft,
     .homePage-container-info-hard{
