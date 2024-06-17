@@ -119,7 +119,7 @@ export default function Home () {
           <div className='homePage-container-works-cards-card'>
             <img src={flixprop} alt='flixprop website' />
             <p>Flixprop, my own website</p>
-            <a className='homePage-button-flixprop' href='https://flixprop.com/' target='_blank' rel='noopener noreferrer'>
+            <a className='homePage-button-flixprop' href='https://blasnjacobo.github.io/flixprop/' target='_blank' rel='noopener noreferrer'>
               Visita la Página
             </a>
           </div>
